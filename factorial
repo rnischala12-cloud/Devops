@@ -1,0 +1,16 @@
+#!bin/bash/
+set -x
+echo "Enter the number for factorial:"
+read num
+factorial=1;
+
+for(( i=$num; i>0; i-- ))
+
+do 
+	echo "$i"
+	factorial=$((factorial * i));	
+
+done
+echo "$factorial"
+
+

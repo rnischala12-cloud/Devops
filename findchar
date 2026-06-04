@@ -1,0 +1,7 @@
+#bin/bash
+set -x
+x=missssssssssisssm
+
+echo "$x"|grep -o "s"
+
+
